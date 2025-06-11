@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0 0 5px #000;
+}
+
+.container {
+    text-align: center;
+}
+
+#clock {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+audio {
+    margin-top: 20px;
+    outline: none;
+}
